@@ -1,0 +1,150 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      sst:
+        specifier: 3.1.13
+        version: 3.1.13
+    devDependencies:
+      '@types/aws-lambda':
+        specifier: 8.10.145
+        version: 8.10.145
+      typescript:
+        specifier: ^5.6.2
+        version: 5.6.2
+
+packages:
+
+  '@types/aws-lambda@8.10.145':
+    resolution: {integrity: sha512-dtByW6WiFk5W5Jfgz1VM+YPA21xMXTuSFoLYIDY0L44jDLLflVPtZkYuu3/YxpGcvjzKFBZLU+GyKjR0HOYtyw==}
+
+  aws4fetch@1.0.20:
+    resolution: {integrity: sha512-/djoAN709iY65ETD6LKCtyyEI04XIBP5xVvfmNxsEP0uJB5tyaGBztSryRr4HqMStr9R06PisQE7m9zDTXKu6g==}
+
+  jose@4.15.9:
+    resolution: {integrity: sha512-1vUQX+IdDMVPj4k8kOxgUqlcK518yluMuGZwqlr44FS1ppZB/5GWh4rZG89erpOBOJjU/OBsnCVFfapsRz6nEA==}
+
+  jose@5.2.3:
+    resolution: {integrity: sha512-KUXdbctm1uHVL8BYhnyHkgp3zDX5KW8ZhAKVFEfUbU2P8Alpzjb+48hHvjOdQIyPshoblhzsuqOwEEAbtHVirA==}
+
+  lru-cache@6.0.0:
+    resolution: {integrity: sha512-Jo6dJ04CmSjuznwJSS3pUeWmd/H0ffTlkXXgwZi+eq1UCmqQwCh+eLsYOYCwY991i2Fah4h1BEMCx4qThGbsiA==}
+    engines: {node: '>=10'}
+
+  object-hash@2.2.0:
+    resolution: {integrity: sha512-gScRMn0bS5fH+IuwyIFgnh9zBdo4DV+6GhygmWM9HyNJSgS0hScp1f5vjtm7oIIOiT9trXrShAkLFSc2IqKNgw==}
+    engines: {node: '>= 6'}
+
+  oidc-token-hash@5.0.3:
+    resolution: {integrity: sha512-IF4PcGgzAr6XXSff26Sk/+P4KZFJVuHAJZj3wgO3vX2bMdNVp/QXTP3P7CEm9V1IdG8lDLY3HhiqpsE/nOwpPw==}
+    engines: {node: ^10.13.0 || >=12.0.0}
+
+  openid-client@5.6.4:
+    resolution: {integrity: sha512-T1h3B10BRPKfcObdBklX639tVz+xh34O7GjofqrqiAQdm7eHsQ00ih18x6wuJ/E6FxdtS2u3FmUGPDeEcMwzNA==}
+
+  sst-darwin-arm64@3.1.13:
+    resolution: {integrity: sha512-/isUP2ZjYOhYc/ntYyw8dnseYRiTPMBIUM6RQ0KEPWETuVlsjWoZAHXli9r29iF4fUHnbRu6nzyYEKjeiDnqMQ==}
+    cpu: [arm64]
+    os: [darwin]
+
+  sst-darwin-x64@3.1.13:
+    resolution: {integrity: sha512-/JW4BnbAxfK+vGExczb5/J1ZoRYealpWjvINmnuwIvizGdyUbCf5FQnp4pvThY6r31Y4Ht4KElBCgE+zFeLZeQ==}
+    cpu: [x64]
+    os: [darwin]
+
+  sst-linux-arm64@3.1.13:
+    resolution: {integrity: sha512-hYBagctQeivuqr4Qypu0wTFGj4zfq2Eyo+gldOtmJMOT0jx8alQf5jpT1ACdv5zlzy5WGP9cHETUBC6xtCa2gg==}
+    cpu: [arm64]
+    os: [linux]
+
+  sst-linux-x64@3.1.13:
+    resolution: {integrity: sha512-rk1y33/68ebwhYDMvGB004FhDg6/Dg73a10LKmHQrdDet6r15huSHKpGLucFa51P70pn48sRhxtNBsG1DHv0bw==}
+    cpu: [x64]
+    os: [linux]
+
+  sst-linux-x86@3.1.13:
+    resolution: {integrity: sha512-exTm/a7d9XvTJ+e7XDvoKid0aUugvuVskECcPO2RzDne918OEJ+9Orfw3npv3DsmMELbXLebIgz8STlD4VEHrQ==}
+    cpu: [x86]
+    os: [linux]
+
+  sst@3.1.13:
+    resolution: {integrity: sha512-9PnmaDLBqGvx8T5gIsUPpGBTAVRyOnQO4eZ9gxLcvcWttKwYk2GTNzAHXJyTcyQHZt78gv74eK+a8UlVL5VUzw==}
+    hasBin: true
+    peerDependencies:
+      hono: 4.x
+      valibot: 0.30.x
+    peerDependenciesMeta:
+      hono:
+        optional: true
+      valibot:
+        optional: true
+
+  typescript@5.6.2:
+    resolution: {integrity: sha512-NW8ByodCSNCwZeghjN3o+JX5OFH0Ojg6sadjEKY4huZ52TqbJTJnDo5+Tw98lSy63NZvi4n+ez5m2u5d4PkZyw==}
+    engines: {node: '>=14.17'}
+    hasBin: true
+
+  yallist@4.0.0:
+    resolution: {integrity: sha512-3wdGidZyq5PB084XLES5TpOSRA3wjXAlIWMhum2kRcv/41Sn2emQ0dycQW4uZXLejwKvg6EsvbdlVL+FYEct7A==}
+
+snapshots:
+
+  '@types/aws-lambda@8.10.145': {}
+
+  aws4fetch@1.0.20: {}
+
+  jose@4.15.9: {}
+
+  jose@5.2.3: {}
+
+  lru-cache@6.0.0:
+    dependencies:
+      yallist: 4.0.0
+
+  object-hash@2.2.0: {}
+
+  oidc-token-hash@5.0.3: {}
+
+  openid-client@5.6.4:
+    dependencies:
+      jose: 4.15.9
+      lru-cache: 6.0.0
+      object-hash: 2.2.0
+      oidc-token-hash: 5.0.3
+
+  sst-darwin-arm64@3.1.13:
+    optional: true
+
+  sst-darwin-x64@3.1.13:
+    optional: true
+
+  sst-linux-arm64@3.1.13:
+    optional: true
+
+  sst-linux-x64@3.1.13:
+    optional: true
+
+  sst-linux-x86@3.1.13:
+    optional: true
+
+  sst@3.1.13:
+    dependencies:
+      aws4fetch: 1.0.20
+      jose: 5.2.3
+      openid-client: 5.6.4
+    optionalDependencies:
+      sst-darwin-arm64: 3.1.13
+      sst-darwin-x64: 3.1.13
+      sst-linux-arm64: 3.1.13
+      sst-linux-x64: 3.1.13
+      sst-linux-x86: 3.1.13
+
+  typescript@5.6.2: {}
+
+  yallist@4.0.0: {}
