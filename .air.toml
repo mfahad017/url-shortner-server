@@ -1,0 +1,19 @@
+# .air.toml
+# Config file for air
+[build]
+bin = "./tmp/main" # Binary output location
+cmd = "go build -o ./tmp/main ./src/server.go" # Command to build your application
+include_ext = ["go", "tpl", "tmpl", "html"] # File extensions to watch
+exclude_dir = ["data","vendor", "tmp", "bin"] # Directories to exclude from watching
+
+[dev]
+root = "src"
+
+[log]
+level = "debug" # Log level
+
+[color]
+main = "yellow" # Main color
+
+[misc]
+clean_on_exit = true # Clean up on exit

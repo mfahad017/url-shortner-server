@@ -1,0 +1,40 @@
+POST http://localhost:4000/v1/auth/signup
+Content-Type: application/json
+
+{
+    "email": "faha@t.com",
+    "name": "Fahad Nadeem",
+    "password": "te123424324s"
+}
+
+
+###
+POST http://localhost:4000/v1/auth/login
+Content-Type: application/json
+
+{
+    "email": "faha@t.com",
+    "password": "te123424324s"
+}
+
+
+### URL
+
+POST http://localhost:4000/v1/url/
+Content-Type: application/json
+
+{
+    "originalURL": "www.google.com",
+    "suffix": "purple-yellow"
+}
+
+### 
+POST http://localhost:4000/v1/url/
+Content-Type: application/json
+
+{
+    "originalURL": "www.google.com"
+}
+
+### 
+GET http://localhost:4000/v1/url/purple-yellow
